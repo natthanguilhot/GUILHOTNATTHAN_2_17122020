@@ -6,7 +6,5 @@ menu en ancrage
 
 breakpoint tablette
 
-pas de SASS
-
 validé au W3C
 
