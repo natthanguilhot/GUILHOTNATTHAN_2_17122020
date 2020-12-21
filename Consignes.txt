@@ -1,9 +1,5 @@
 carte hebergement (la totalité de la carte) ou activité cliquable qui mene a un lien vide
 
-animation sur les filtres au survol
-
-menu en ancrage
-
 breakpoint tablette
 
 validé au W3C
