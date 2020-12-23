@@ -379,7 +379,7 @@ li {
 
 @media all and (max-device-width: 575.98px){
   body {
-    width: 50%;
+    width: 90%;
     background-color: gray;
   }
   .bouton-menu-inscription {
