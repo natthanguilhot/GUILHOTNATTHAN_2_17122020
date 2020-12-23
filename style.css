@@ -346,7 +346,7 @@ li {
 }
 
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 991.98px) {
   body {
     width: 90%;
   }
@@ -374,7 +374,7 @@ li {
   }
 }
 
-@media all and (max-device-width: 480px){
+@media all and (max-device-width: 575.98px){
   body {
     width: 90%;
     background-color: gray;
@@ -389,27 +389,30 @@ li {
   button {
     display: none;
   }
-
   .recherche > .icone-recherche {
     display: contents;
     border-radius: 11px;
     display: flex;
     color: white;
     background-color: #0065FC;
-    width: 40px;
+    width: 45px;
     align-items: center;
     justify-content: center;
+    margin-left: -1em;
   }
 
-  /*
+section#corps {
+  flex-direction: column-reverse;
+}
+  .populaire {
+    margin-bottom: 2em;
+  }
   .rang1, .rang2
   {
-    flex-direction: column;
     width: 100%;
   }
   .hebergements{
     width: 100%;
   }
-  */
 
 }
