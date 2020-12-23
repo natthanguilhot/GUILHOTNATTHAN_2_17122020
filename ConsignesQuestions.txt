@@ -10,8 +10,11 @@ footer sur toute la largeur (desktop)
 
 Questions :
 
-le mieux en terme de media queries pour tablette
-smartphone : comment faire pour le menu
-logo rechercher
-plus populaire en premier
-aide pour W3C
+le mieux en terme de media queries pour tablette/tel			voir bootstrap
+smartphone : comment faire pour le menu 				position absolut
+logo rechercher								input plus long et bouton par dessus ou margin left negatif
+plus populaire en premier						column reverse
+aide pour W3C								balises dans body
+
+image 						balise picture donner source differente pour chaque taille ecran
+icone 						mettre icone dans une div
