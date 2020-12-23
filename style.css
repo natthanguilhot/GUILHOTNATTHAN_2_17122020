@@ -101,7 +101,7 @@ button:hover {
 input {
   height: 95%;
 }
-.recherche > i {
+.recherche > i.localisation {
   display: flex;
   background-color: #F2F2F2;
   color: black;
@@ -111,7 +111,7 @@ input {
   align-items: center;
   justify-content: center;
 }
-.icone-recherche {
+.recherche > .icone-recherche {
   display: none;
 }
 .menu-filtres, .filtres {
@@ -382,22 +382,25 @@ li {
   header {
     flex-direction: column;
     height:200px;
-    border:1px solid;
   }
   .bouton-menu:hover {
   border:none
-  }
-  .recherche {
-    border: 1px solid;
   }
   button {
     display: none;
   }
 
-  .icone-recherche {
+  .recherche > .icone-recherche {
     display: contents;
     border-radius: 11px;
+    display: flex;
+    color: white;
+    background-color: #0065FC;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
   }
+
   /*
   .rang1, .rang2
   {
