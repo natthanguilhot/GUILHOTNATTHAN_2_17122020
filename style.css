@@ -315,6 +315,7 @@ h4 {
 footer {
   display: flex;
   margin-top: 5em;
+  margin-bottom: 5em;
   background-color: #F2F2F2;
   width:100%;
 }
