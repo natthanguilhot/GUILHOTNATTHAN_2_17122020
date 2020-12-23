@@ -90,6 +90,9 @@ button:hover {
 .fondgris {
     background-color: #F2F2F2;
 }
+.mainblue{
+  color: #0065FC;
+}
 .recherche {
   display: flex;
   height: 45px;
@@ -376,8 +379,15 @@ li {
 
 @media all and (max-device-width: 575.98px){
   body {
-    width: 90%;
+    width: 50%;
     background-color: gray;
+  }
+  .bouton-menu-inscription {
+    position: absolute;
+    top: 10px ; left :450px;
+  }
+  .menu > ul > li  {
+    margin-left: 15em;
   }
   header {
     flex-direction: column;
@@ -389,13 +399,18 @@ li {
   button {
     display: none;
   }
+  .recherche {
+    border: 1px solid;
+    width:100%;
+    margin-bottom:2em;
+  }
   .recherche > .icone-recherche {
     display: contents;
     border-radius: 11px;
     display: flex;
     color: white;
     background-color: #0065FC;
-    width: 45px;
+    width: 20%;
     align-items: center;
     justify-content: center;
     margin-left: -1em;

@@ -10,7 +10,5 @@ footer sur toute la largeur (desktop)
 
 Questions :
 
-smartphone : comment faire pour le menu 				position absolut
-
 image 						balise picture donner source differente pour chaque taille ecran
 icone 						mettre icone dans une div
