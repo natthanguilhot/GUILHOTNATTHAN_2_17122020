@@ -1,6 +1,0 @@
-breakpoint tablette
-
-validé au W3C
-
-le mieux en terme de media queries pour tablette
-aide pour W3C

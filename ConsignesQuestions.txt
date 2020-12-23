@@ -1,0 +1,17 @@
+A faire :
+
+breakpoint tablette
+
+validé au W3C
+
+Icones filtres à centrer
+
+footer sur toute la largeur (desktop)
+
+Questions :
+
+le mieux en terme de media queries pour tablette
+smartphone : comment faire pour le menu
+logo rechercher
+plus populaire en premier
+aide pour W3C

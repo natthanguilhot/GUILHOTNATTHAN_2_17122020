@@ -111,6 +111,9 @@ input {
   align-items: center;
   justify-content: center;
 }
+.icone-recherche {
+  display: none;
+}
 .menu-filtres, .filtres {
   display: flex;
   height: 100%;
@@ -373,15 +376,37 @@ li {
 
 @media all and (max-device-width: 480px){
   body {
+    width: 90%;
     background-color: gray;
-    width: 100%;
   }
-  .rang1, .rang2{
+  header {
+    flex-direction: column;
+    height:200px;
+    border:1px solid;
+  }
+  .bouton-menu:hover {
+  border:none
+  }
+  .recherche {
+    border: 1px solid;
+  }
+  button {
+    display: none;
+  }
+
+  .icone-recherche {
+    display: contents;
+    border-radius: 11px;
+  }
+  /*
+  .rang1, .rang2
+  {
     flex-direction: column;
     width: 100%;
   }
   .hebergements{
     width: 100%;
   }
+  */
 
 }
