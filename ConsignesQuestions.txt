@@ -1,14 +1,12 @@
 A faire :
 
-breakpoint tablette
-
 validé au W3C
 
 Icones filtres à centrer
 
 footer sur toute la largeur (desktop)
 
-Questions :
+Etoiles carte popu pas en bas
 
-image 						balise picture donner source differente pour chaque taille ecran
-icone 						mettre icone dans une div
+
+Questions :

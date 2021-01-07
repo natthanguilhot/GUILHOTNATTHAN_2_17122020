@@ -1,32 +1,36 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin: auto;
-  width: 70%
+  width: 90%
 }
 .logo {
-  width: 120px;
+  width: 140px;
   height: 100%;
-    padding-top: 3em;
 }
 li > a:visited {
   color: #0065FC;
 }
 a {
   text-decoration: none;
+  color: black;
 }
 header {
   display: flex;
   justify-content: space-between;
-  height: 50px;
-  width: auto;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+header > img {
+  object-fit: fill;
 }
 .menu {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
+  align-content: space-around;
   list-style: none;
   width: 50%;
-  align-content: space-around;
 }
 .menu > ul {
   display: flex;
@@ -35,28 +39,18 @@ header {
   height: 100%;
   justify-content: space-around;
 }
-section > h1 {
-  padding-top: 3em;
-}
-
-div.menu ul > li {
-  height: auto;
-  padding-top: 3em;
-}
 .bouton-menu{
-  margin: 15px 30px 15px 15px;
   color: black;
-  height: 50px;
+  padding-top: 2em;
 }
 .bouton-menu-inscription {
-  margin: 15px 50px 15px 15px;
+  margin: 15px 15px 15px 15px;
   color: #0065FC;
   height: 50px;
   font-weight: bold;
 }
 li.bouton-menu:hover{
   color: #0065FC;
-  cursor: pointer;
   border-top: 2px solid #0065FC;
 }
 .bouton-menu-inscription:hover{
@@ -117,7 +111,7 @@ input {
 .recherche > .icone-recherche {
   display: none;
 }
-.menu-filtres, .filtres {
+.menu-filtres, .filtres,{
   display: flex;
   height: 100%;
   align-items: center;
@@ -126,19 +120,24 @@ input {
   display: flex;
   color: #0065FC;
   border: 10px solid #DEEBFF;
-  border-radius: 100%;
+  border-radius: 50%;
   height: 20px;
   width: 20px;
   align-items: center;
   justify-content: center;
 }
 .menu-filtres {
+  display: flex;
   font-weight: bold;
   width: auto;
   height: 38px;
   margin-bottom: 30px;
 }
+.container-filtre {
+  display: flex;
+}
 .filtres{
+  display: flex;
   align-items: center;
   margin-left: 3%;
   border: 1px solid #F2F2F2;
@@ -219,7 +218,9 @@ div.lieu > img {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
-
+img {
+  object-fit: cover;
+}
 .rang1 > a {
   width: 30%;
 }
@@ -243,21 +244,39 @@ div.lieu > img {
   background-color: white;
   padding: 5px 5px 0 5px;
   width: 100%;
-  height: 155px;
+  height: 20%;
   display: flex;
   margin-bottom: 4em;
 }
+.titre-populaire > i {
+  padding-top: 2em;
+}
 div.imgpopu > img {
   width: 150px;
-  height: 150px;
+  height: 95%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 .textpopu {
-  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.textpopu > p {
-  margin-bottom: 2em;
+.idpopu {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.idpopu > h3 {
+  margin-bottom: -0.5em;
+}
+.starpopu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 .contentactivités {
   width: 100%;
@@ -271,7 +290,7 @@ div.imgpopu > img {
   width: 100%;
   height: 105%;
   border-radius: 20px;
-  box-shadow: 10px 5px 5px #F2F2F2, 10px 5px 5px #F2F2F2;
+  box-shadow: 10px 10px 10px #F2F2F2,
 }
 .activité > img {
   width: 100%;
@@ -283,7 +302,7 @@ div.imgpopu > img {
   width: 100%;
   height: 40%;
   border-radius: 20px;
-  box-shadow: 10px 5px 5px #F2F2F2, 10px 5px 5px #F2F2F2;
+  box-shadow: 10px 5px 5px #F2F2F2,
   margin-bottom: 1em;
 }
 .activitédouble > img {
@@ -348,7 +367,7 @@ li {
   margin-bottom: 0.8em;
 }
 
-
+/* Tablette */
 @media all and (max-width: 991.98px) {
   body {
     width: 90%;
@@ -365,27 +384,60 @@ li {
   }
   .populaire {
     width: 98%;
+    height: 850px;
   }
   .cartepopu {
     margin-bottom: 2em;
-  }
-  .cartepopu {
     width: 100%;
+    height: 25%;
+  }
+  .textpopu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .contentactivités {
     width: 100%;
   }
 }
 
+/* Mobile */
 @media all and (max-device-width: 575.98px){
   body {
     width: 90%;
-    font-size: 40px;
+    font-size: 60px;
   }
-  .bouton-menu-inscription {
-    position: absolute;
-    top: 10px ; left :450px;
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10em;
+    border: 1px solid;
   }
+  .logo {
+    width: 50%;
+    height: 30%;
+    /*position: absolute; */
+  }
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+/*
+.logo{
+  height: 150px;
+  width: 50%;
+}
+.menu {
+  width: 100%;
+  height: auto;
+  padding-top: 3em;
+  border: 1px solid;
+  flex-wrap: wrap-reverse;
+  margin: auto;
+}
   .menu > ul > li  {
     margin-left: 9em;
     border:1px solid;
