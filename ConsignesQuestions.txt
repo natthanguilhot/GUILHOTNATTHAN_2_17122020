@@ -10,3 +10,8 @@ Etoiles carte popu pas en bas
 
 
 Questions :
+
+
+mobile
+Populaire : Img veut pas de border radius
+hebergements : texte trop grand 
