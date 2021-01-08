@@ -39,7 +39,7 @@ header > img {
   height: 100%;
   justify-content: space-around;
 }
-.bouton-menu{
+.bouton-menu1, .bouton-menu2{
   color: black;
   padding-top: 2em;
 }
@@ -49,7 +49,7 @@ header > img {
   height: 50px;
   font-weight: bold;
 }
-li.bouton-menu:hover{
+li.bouton-menu1:hover, li.bouton-menu2:hover{
   color: #0065FC;
   border-top: 2px solid #0065FC;
 }
@@ -207,7 +207,7 @@ margin-right: 5em;
   border-radius: 20px;
   background-color: white;
   padding: 5px 5px 5px 5px;
-  width:100%;
+  width:95%;
 }
 .lieu:hover, .cartepopu, .act, .activité {
   cursor: pointer;
@@ -290,7 +290,7 @@ div.imgpopu > img {
   width: 100%;
   height: 105%;
   border-radius: 20px;
-  box-shadow: 10px 10px 10px #F2F2F2,
+  box-shadow: 10px 10px 10px #f2f2f2;
 }
 .activité > img {
   width: 100%;
@@ -299,10 +299,14 @@ div.imgpopu > img {
   border-top-right-radius: 20px;
 }
 .activitédouble {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 100%;
   height: 40%;
   border-radius: 20px;
-  box-shadow: 10px 5px 5px #F2F2F2,
+  box-shadow: 10px 10px 10px #f2f2f2;
   margin-bottom: 1em;
 }
 .activitédouble > img {
@@ -411,79 +415,115 @@ li {
     display: flex;
     flex-wrap: wrap;
     height: 10em;
-    border: 1px solid;
   }
   .logo {
-    width: 50%;
-    height: 30%;
-    /*position: absolute; */
+    width: 40%;
+    height: 12%;
+    position: absolute;
+    top: 0em;
   }
   .menu {
     display: flex;
     flex-direction: row-reverse;
     flex-direction: column-reverse;
   }
-}
-
-/*
-.logo{
-  height: 150px;
-  width: 50%;
-}
-.menu {
-  width: 100%;
-  height: auto;
-  padding-top: 3em;
-  border: 1px solid;
-  flex-wrap: wrap-reverse;
-  margin: auto;
-}
-  .menu > ul > li  {
-    margin-left: 9em;
-    border:1px solid;
+  .bouton-menu-inscription {
+    position:absolute;
+    top: 1.2em;
+    right: -1em;
   }
-  header {
-    flex-direction: column;
-    height:200px;
+  li {
+    width: 50%;
+    text-align: center;
   }
-  header > img{
-    width: 150%;
+  .bouton-menu1 {
+    position: absolute;
+    border-bottom: 10px solid #0065FC;
   }
-  .tete > h1 {
-    margin-top : 2em;
+  .bouton-menu2 {
+    position: absolute;
+    right: -1em;
+    border-bottom: 10px solid #f2f2f2;
   }
-  button {
-    display: none;
+  .tete > p {
+    font-size: 0.8em;
   }
   .recherche {
-    width:100%;
-    height: 100px;
-    margin-bottom:2em;
+    height : 3em;
+    width: 120%;
   }
-  .recherche > .icone-recherche {
-    display: contents;
-    border-radius: 25px;
+  .recherche > button {
+    display: none;
+  }
+  .recherche > i.localisation {
     display: flex;
-    color: white;
-    background-color: #0065FC;
-    width: 13%;
+    background-color: #F2F2F2;
+    color: black;
+    border-top-left-radius: 0.6em;
+    border-bottom-left-radius: 0.6em;
+    width: 17%;
     align-items: center;
     justify-content: center;
-    margin-left: -1em;
   }
-
-section#corps {
-  flex-direction: column-reverse;
-}
-  .populaire {
-    margin-bottom: 2em;
+  .recherche > input {
+    width: 66%;
+    height: auto;
+    padding-left: 0.5em;
+    font-size: 0.9em;
+    border-top: 4px solid #F2F2F2;
+    border-bottom: 6px solid #F2F2F2;
   }
-  .rang1, .rang2
-  {
+  .recherche > .icone-recherche {
+    display:  inherit;
+    align-items: center;
+    justify-content: center;
+    width: 17%;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0.5em;
+    position: relative;
+    left: -0.5em;
+  }
+  .container-filtre {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
   }
-  .hebergements{
-    width: 100%;
+  .menu-filtres{
+    flex-direction: column;
+    width: 120%;
+    height: auto;
+    margin-bottom: 1.5em;
+  }
+  .filtres {
+    width: auto;
+    height: 2.2em;
+    margin: 0.5em;
+    border: 0.1em solid #F2F2F2;
+    border-radius: 2em;
+    padding-right: 0.1em;
+  }
+  .filtres > p {
+    position: relative;
+    left: -0.4em;
+  }
+  .filtres > i {
+    display: flex;
+    width: 2em;
+    height: 2em;
+    position: relative;
+    left: -0.6em;
+    justify-content: center;
+    align-items: center;
   }
 
+
+
+  footer {
+    flex-direction: column;
+    width :100%;
+  }
+  .colonne {
+    margin-bottom: 1em;
+  }
 }
