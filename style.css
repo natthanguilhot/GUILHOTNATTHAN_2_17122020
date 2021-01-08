@@ -561,13 +561,16 @@ li {
   }
   div.imgpopu > img {
     width: 100%;
-    border-top-left-radius: : 1.5em;
+    border-top-left-radius: 1.5em;
     border-bottom-left-radius: 1.5em;
+
     padding: 0em 0em 0.2em 0.2em;
   }
   .textpopu {
     width : 60%;
   }
+
+
   .hebergements {
     width: 105%;
     background-color: white;
@@ -579,22 +582,32 @@ li {
   .lieu {
     height: 100%;
     box-shadow: 0.3em 0.3em 0.3em #f2f2f2, -0.3em -0.3em 0.3em #f2f2f2;
-    border-radius: 2em;
+    border-radius: 1em;
   }
-  .cartehebergements > a {
-    width: 100%;
-    height : 20em;
+  div.cartehebergements > a {
+    width: 95%;
+    height : 8em;
     justify-content: center;
     margin-bottom: 1em;
   }
   div.lieu > img {
-    height: 60%;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
+    height: 55%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
   }
   .textlieu {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    font-size: 55%;
+    height: 40%;
+  }
+  .textlieu > h3 {
+    margin-bottom: -0.5em;
+    margin-top: -0.150em;
+  }
+  .textlieu {
+    padding-left: 0.5em;
   }
   .starlieu {
     flex-direction: row;
@@ -616,8 +629,9 @@ li {
     height: 12em;
     margin-bottom: 1em;
   }
-  div.activité > h4 {
-    padding-bottom: 1em;
+  .activité > h4 {
+    display: flex;
+    vertical-align: middle;
   }
   .activité {
     height: 8em;
@@ -643,7 +657,6 @@ li {
   }
   .activité40 {
     height: 50%;
-    margin-bottom: 4em;
   }
   .activitédouble {
     border-radius: 1em;
@@ -657,7 +670,8 @@ li {
     height: 50%;
   }
   .margintop {
-    margin-top: 2em;
+    position: relative;
+    top: 2em;
   }
 
 
