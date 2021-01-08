@@ -673,6 +673,9 @@ li {
     position: relative;
     top: 2em;
   }
+  h4 {
+    margin-top: 0.5em;
+  }
 
 
   footer {
