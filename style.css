@@ -418,7 +418,7 @@ li {
 }
 
 /* Mobile */
-@media all and (max-device-width: 575.98px){
+@media all and (max-width: 575.98px){
   body {
     width: 90%;
     font-size: 60px;
