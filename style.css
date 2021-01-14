@@ -625,6 +625,7 @@ li {
   .textlieu > h3 {
     margin-bottom: -0.5em;
     margin-top: -0.150em;
+    font-size: 1.4em;
   }
   .textlieu {
     padding-left: 0.5em;
@@ -703,6 +704,7 @@ li {
   footer {
     flex-direction: column;
     width :100%;
+    margin-left:0.5em;
   }
   .colonne {
     margin-bottom: 1em;
