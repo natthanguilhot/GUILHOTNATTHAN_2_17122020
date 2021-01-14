@@ -11,6 +11,9 @@ Etoiles carte popu pas en bas
 
 Questions :
 
+comment j'ai organisé le html ( maquette )
+et css ( utilisation flex ) 
+
 
 mobile
 Populaire : Img veut pas de border radius
