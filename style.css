@@ -384,6 +384,9 @@ li {
   body {
     width: 90%;
   }
+  .bouton-menu1 {
+    margin-right:1em;
+  }
   #corps {
     flex-direction: column;
   }
