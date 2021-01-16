@@ -680,8 +680,10 @@ li {
     flex-direction: row;
   }
 
-
-
+.contentactivités {
+  margin-left: 0.5em;
+}
+/*
   .contentactivités{
     flex-direction: column;
     height: auto;
@@ -739,13 +741,13 @@ li {
   }
   .margintop {
     position: relative;
-    top: 2em;
+    top: 0.5em;
   }
   h4 {
     margin-top: 0.8em;
     font-size: 0.8em;
   }
-
+*/
 
   footer {
     flex-direction: column;
