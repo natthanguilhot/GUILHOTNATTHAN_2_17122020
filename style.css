@@ -52,9 +52,18 @@ header > img {
   height: 50px;
   font-weight: bold;
 }
-li.bouton-menu1:hover, li.bouton-menu2:hover{
+li.bouton-menu1:hover {
   color: #0065FC;
-  border-top: 2px solid #0065FC;
+  border-top: 4px solid #0065FC;
+}
+li.bouton-menu2:hover{
+ color: #0065FC;
+ border-top: 2px solid #0065FC;
+}
+.menu > ul > li {
+  width: 8em;
+  display: flex;
+  justify-content: center;
 }
 h1 {
   font-size: 1.1em;
