@@ -393,6 +393,9 @@ li {
   body {
     width: 90%;
   }
+  .menu {
+    margin-right: 2em;
+  }
   .bouton-menu1 {
     margin-right:1em;
   }
@@ -403,7 +406,6 @@ li {
     width: 100%;
     margin-bottom: 2em;
   }
-
   .lieu {
     margin-bottom: 2em;
   }
@@ -457,9 +459,14 @@ li {
     right: 0.5em;
   }
   li {
-    width: 50%;
     text-align: center;
   }
+  .menu > ul > li {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
   .bouton-menu1 {
     width:50%;
     position: absolute;
