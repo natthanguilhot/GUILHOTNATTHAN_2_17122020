@@ -428,6 +428,33 @@ li {
   }
   .contentactivités {
     width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+  .contentactivités > a {
+    width: 100%;
+    height: 10em;
+    margin-bottom: 2em;
+  }
+  .contentactivités > a > .activité > img {
+    width: 100%;
+    height: 70%;
+  }
+  .contentactivités > .act {
+    width: 100%;
+    height:20em;
+  }
+  .activité60 {
+  height: 50%;
+  }
+  .activité60 > img {
+  height: 70%;
+  }
+  .activité40 {
+    height: 50%;
+  }
+  .margintop {
+    margin-top: 3em;
   }
 }
 
