@@ -414,7 +414,7 @@ li {
 }
 
 /* Tablette */
-@media all and (max-width: 991.98px) {
+@media all and (max-width: 1200px) {
   body {
     width: 90%;
   }
@@ -484,7 +484,7 @@ li {
 }
 
 /* Mobile */
-@media all and (max-width: 575.98px) {
+@media all and (max-width: 600px) {
   body {
     width: 95%;
     font-size: 30px;
