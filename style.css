@@ -413,6 +413,14 @@ li {
   text-decoration: underline;
 }
 
+@media all and (max-width: 1448px) {
+  .marginbot {
+    margin-bottom: 100px;
+  }
+  main {
+    height: 50em;
+  }
+}
 /* Tablette */
 @media all and (max-width: 1200px) {
   body {
@@ -499,6 +507,7 @@ li {
     height: 12%;
     position: absolute;
     top: 0em;
+    left: 0px;
   }
   .menu {
     display: flex;
