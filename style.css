@@ -331,7 +331,7 @@ div.imgpopu > img {
 }
 .activité > img {
   width: 100%;
-  height: 90%;
+  height: 84%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -722,7 +722,7 @@ li {
     width: 100%;
     text-align: left;
   }
-  .colonne > h3 {
+  .colonne > h2 {
     margin-left: -1em;
   }
 }
